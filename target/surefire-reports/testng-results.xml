@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-02T10:00:14 IST" name="Suite" finished-at="2025-07-02T10:00:14 IST" duration-ms="54">
+  <suite started-at="2025-07-02T12:52:17 IST" name="Suite" finished-at="2025-07-02T12:52:17 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2025-07-02T10:00:14 IST" name="Test" finished-at="2025-07-02T10:00:14 IST" duration-ms="54">
+    <test started-at="2025-07-02T12:52:17 IST" name="Test" finished-at="2025-07-02T12:52:17 IST" duration-ms="53">
       <class name="Package1.ContactTest">
-        <test-method signature="createcontactTest()[pri:0, instance:Package1.ContactTest@4fe767f3]" started-at="2025-07-02T10:00:14 IST" name="createcontactTest" finished-at="2025-07-02T10:00:14 IST" duration-ms="5" status="PASS">
+        <test-method signature="createcontactTest()[pri:0, instance:Package1.ContactTest@161b062a]" started-at="2025-07-02T12:52:17 IST" name="createcontactTest" finished-at="2025-07-02T12:52:17 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcontactTest -->
-        <test-method signature="modifycontactTest()[pri:0, instance:Package1.ContactTest@4fe767f3]" started-at="2025-07-02T10:00:14 IST" name="modifycontactTest" finished-at="2025-07-02T10:00:14 IST" duration-ms="0" status="PASS">
+        <test-method signature="deletecontactTest()[pri:0, instance:Package1.ContactTest@161b062a]" started-at="2025-07-02T12:52:17 IST" name="deletecontactTest" finished-at="2025-07-02T12:52:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontactTest -->
+        <test-method signature="modifycontactTest()[pri:0, instance:Package1.ContactTest@161b062a]" started-at="2025-07-02T12:52:17 IST" name="modifycontactTest" finished-at="2025-07-02T12:52:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifycontactTest -->
       </class> <!-- Package1.ContactTest -->
       <class name="Package2.OrgTest">
-        <test-method signature="createcOrgTest()[pri:0, instance:Package2.OrgTest@ec756bd]" started-at="2025-07-02T10:00:14 IST" name="createcOrgTest" finished-at="2025-07-02T10:00:14 IST" duration-ms="1" status="PASS">
+        <test-method signature="createcOrgTest()[pri:0, instance:Package2.OrgTest@1a84f40f]" started-at="2025-07-02T12:52:17 IST" name="createcOrgTest" finished-at="2025-07-02T12:52:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcOrgTest -->
-        <test-method signature="modifyOrgTest()[pri:0, instance:Package2.OrgTest@ec756bd]" started-at="2025-07-02T10:00:14 IST" name="modifyOrgTest" finished-at="2025-07-02T10:00:14 IST" duration-ms="1" status="PASS">
+        <test-method signature="modifyOrgTest()[pri:0, instance:Package2.OrgTest@1a84f40f]" started-at="2025-07-02T12:52:17 IST" name="modifyOrgTest" finished-at="2025-07-02T12:52:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifyOrgTest -->
