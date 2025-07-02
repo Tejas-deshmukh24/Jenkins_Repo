@@ -6,7 +6,7 @@ public class OrgTest {
 	
 	@Test
 	public void createcOrgTest() {
-		System.out.println("Execute createOrgTest");
+		System.out.println("Execute createOrgTest successful");
 	}
 	
 	@Test
