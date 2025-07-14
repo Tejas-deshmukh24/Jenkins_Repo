@@ -1,31 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[zohoCRM2348OrgName Test Case Pass]]>
+    </line>
+    <line>
+      <![CDATA[zohoCRM4537PhoneNumber Test Case Pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-07-02T11:22:04 IST" name="Suite" finished-at="2025-07-02T11:22:04 IST" duration-ms="59">
+  <suite started-at="2025-07-14T12:37:01 IST" name="Default suite" finished-at="2025-07-14T12:37:20 IST" duration-ms="19119">
     <groups>
+      <group name="regressionTest">
+        <method signature="TestNgOpportiunity.CreateOpportiunityOrgname()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" name="CreateOpportiunityOrgname" class="TestNg_Classes.TestNgOpportiunity"/>
+        <method signature="TestNgOpportiunity.CreateOpportiunityPhone()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" name="CreateOpportiunityPhone" class="TestNg_Classes.TestNgOpportiunity"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="TestNgOpportiunity.CreateOpportiunityOrgname()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" name="CreateOpportiunityOrgname" class="TestNg_Classes.TestNgOpportiunity"/>
+        <method signature="TestNgOpportiunity.CreateOpportiunityPhone()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" name="CreateOpportiunityPhone" class="TestNg_Classes.TestNgOpportiunity"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2025-07-02T11:22:04 IST" name="Test" finished-at="2025-07-02T11:22:04 IST" duration-ms="59">
-      <class name="Package1.ContactTest">
-        <test-method signature="createcontactTest()[pri:0, instance:Package1.ContactTest@791f145a]" started-at="2025-07-02T11:22:04 IST" name="createcontactTest" finished-at="2025-07-02T11:22:04 IST" duration-ms="11" status="PASS">
+    <test started-at="2025-07-14T12:37:01 IST" name="Default test" finished-at="2025-07-14T12:37:20 IST" duration-ms="19119">
+      <class name="TestNg_Classes.TestNgOpportiunity">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:00 IST" name="configBS" finished-at="2025-07-14T12:37:01 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createcontactTest -->
-        <test-method signature="modifycontactTest()[pri:0, instance:Package1.ContactTest@791f145a]" started-at="2025-07-02T11:22:04 IST" name="modifycontactTest" finished-at="2025-07-02T11:22:04 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:01 IST" name="configBC" finished-at="2025-07-14T12:37:02 IST" duration-ms="1583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifycontactTest -->
-      </class> <!-- Package1.ContactTest -->
-      <class name="Package2.OrgTest">
-        <test-method signature="createcOrgTest()[pri:0, instance:Package2.OrgTest@750e2b97]" started-at="2025-07-02T11:22:04 IST" name="createcOrgTest" finished-at="2025-07-02T11:22:04 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:02 IST" name="configBM" finished-at="2025-07-14T12:37:03 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createcOrgTest -->
-        <test-method signature="modifyOrgTest()[pri:0, instance:Package2.OrgTest@750e2b97]" started-at="2025-07-02T11:22:04 IST" name="modifyOrgTest" finished-at="2025-07-02T11:22:04 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOpportiunityOrgname()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:03 IST" name="CreateOpportiunityOrgname" finished-at="2025-07-14T12:37:09 IST" duration-ms="6725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[zohoCRM2348OrgName Test Case Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateOpportiunityOrgname -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:09 IST" name="configAM" finished-at="2025-07-14T12:37:10 IST" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifyOrgTest -->
-      </class> <!-- Package2.OrgTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:10 IST" name="configBM" finished-at="2025-07-14T12:37:11 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOpportiunityPhone()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:11 IST" name="CreateOpportiunityPhone" finished-at="2025-07-14T12:37:19 IST" duration-ms="7553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[zohoCRM4537PhoneNumber Test Case Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateOpportiunityPhone -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:19 IST" name="configAM" finished-at="2025-07-14T12:37:19 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:19 IST" name="configAC" finished-at="2025-07-14T12:37:20 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:TestNg_Classes.TestNgOpportiunity@7c7a06ec]" started-at="2025-07-14T12:37:20 IST" name="configAS" finished-at="2025-07-14T12:37:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- TestNg_Classes.TestNgOpportiunity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
